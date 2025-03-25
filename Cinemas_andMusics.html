@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Favorite Movies & Music</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f5f7fa;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #4CAF50;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 30px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background-color: #fff;
+      padding: 20px;
+      width: 300px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card h2 {
+      margin-bottom: 15px;
+      color: #4CAF50;
+      border-bottom: 2px solid #4CAF50;
+      padding-bottom: 10px;
+    }
+
+    .card ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+
+    .card a {
+      text-decoration: none;
+      color: #333;
+      transition: color 0.3s;
+    }
+
+    .card a:hover {
+      color: #4CAF50;
+      text-decoration: underline;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🎬 My Favorite Movies & 🎵 Music</h1>
+  </header>
+
+  <section class="container">
+    <div class="card">
+      <h2>Favorite Movies</h2>
+      <ul>
+        <li><a href="https://www.imdb.com/title/tt1375666/" target="_blank">Inception</a></li>
+        <li><a href="https://www.imdb.com/title/tt0816692/" target="_blank">Interstellar</a></li>
+        <li><a href="https://www.imdb.com/title/tt0468569/" target="_blank">The Dark Knight</a></li>
+        <li><a href="https://www.imdb.com/title/tt1130884/" target="_blank">Shutter Island</a></li>
+        <li><a href="https://www.imdb.com/title/tt4154796/" target="_blank">Avengers: Endgame</a></li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Favorite Music</h2>
+      <ul>
+        <li><a href="https://www.songmeanings.com/songs/view/3530822107859517315/" target="_blank">Blinding Lights - The Weeknd</a></li>
+        <li><a href="https://www.songmeanings.com/songs/view/157/" target="_blank">Bohemian Rhapsody - Queen</a></li>
+        <li><a href="https://www.songmeanings.com/songs/view/3530822107858849900/" target="_blank">Someone Like You - Adele</a></li>
+        <li><a href="https://www.songmeanings.com/songs/view/3530822107859432917/" target="_blank">Shape of You - Ed Sheeran</a></li>
+        <li><a href="https://www.songmeanings.com/songs/view/3530822107859517261/" target="_blank">Believer - Imagine Dragons</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 My Favorites Page</p>
+  </footer>
+
+</body>
+</html>
